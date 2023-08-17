@@ -86,7 +86,7 @@ for (const [epicKey, epicValue] of Object.entries(epicList)) {
             }
             
             //Get team level estimates for each program in scope
-            let reqURL = https://YOUR-SUBDOMAIN-HERE.jiraalign.com/privateapi/teamForecasts?itemType=2&itemId= + epicValue;
+            let reqURL = "https://YOUR-SUBDOMAIN-HERE.jiraalign.com/privateapi/teamForecasts?itemType=2&itemId=" + epicValue;
             reqURL += "&releaseid=" + piValue.ID;
             reqURL += "&programId=" + programValue;
             
